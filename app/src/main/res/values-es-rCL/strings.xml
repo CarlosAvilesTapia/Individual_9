@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="back">Volver</string>
+    <string name="close">Cerrar</string>
+    <string name="choose_and_tap_an_image">Escoge y tapea una imagen</string>
+</resources>

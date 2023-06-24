@@ -4,53 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#003D5B"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:fontFamily="casual"
+        android:text="@string/choose_and_tap_an_image"
+        android:textColor="#EDAE49"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
 
     <ImageButton
         android:id="@+id/secondActivityButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:background="#EDAE49"
+        android:contentDescription="@string/star_button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/closeButton"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintEnd_toStartOf="@+id/secondActivityButton2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:layout_constraintVertical_bias="0.261"
+        app:srcCompat="@drawable/ic_android_black_100dp" />
 
     <ImageButton
-        android:id="@+id/closeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="100dp"
+        android:id="@+id/secondActivityButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        android:background="#EDAE49"
+        android:contentDescription="@string/x_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.191"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        app:layout_constraintVertical_bias="0.261"
+        app:srcCompat="@drawable/ic_android_blue_100dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="62dp"
-        android:layout_height="60dp"
+    <ImageButton
+        android:id="@+id/secondActivityButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#EDAE49"
+        android:contentDescription="@string/andy_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/secondActivityButton"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/secondActivityButton"
         app:layout_constraintTop_toBottomOf="@+id/secondActivityButton"
-        app:layout_constraintVertical_bias="0.371"
-        app:srcCompat="@android:drawable/arrow_up_float" />
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@drawable/ic_android_white_100dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="70dp"
-        android:layout_height="63dp"
+    <ImageButton
+        android:id="@+id/secondActivityButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#EDAE49"
+        android:contentDescription="@string/warning_button"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/closeButton"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/closeButton"
-        app:layout_constraintVertical_bias="0.373"
-        app:srcCompat="@android:drawable/arrow_up_float" />
+        app:layout_constraintEnd_toEndOf="@+id/secondActivityButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/secondActivityButton2"
+        app:layout_constraintTop_toBottomOf="@+id/secondActivityButton2"
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@drawable/ic_android_red_100dp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#D1495B"
+        android:text="@string/close"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/secondActivityButton4"
+        app:layout_constraintStart_toStartOf="@+id/secondActivityButton3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

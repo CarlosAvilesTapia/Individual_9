@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">Individual_7</string>
+    <string name="app_name" translatable="false">Individual_7</string>
     <string name="back">Back</string>
+    <string name="star_button" translatable="false">star_button</string>
+    <string name="x_button" translatable="false">x_button</string>
+    <string name="andy_button" translatable="false">andy_button</string>
+    <string name="warning_button" translatable="false">warning_button</string>
+    <string name="close">Close</string>
+    <string name="choose_and_tap_an_image">Choose and tap an image</string>
+    <string name="voila" translatable="false">Voila!</string>
 </resources>
