@@ -3,4 +3,9 @@
     <string name="back">Volver</string>
     <string name="close">Cerrar</string>
     <string name="choose_and_tap_an_image">Escoge y tapea una imagen</string>
+    <string name="black_andy">andy negro</string>
+    <string name="blue_andy">andy azul</string>
+    <string name="white_andy">andy blanco</string>
+    <string name="red_andy">andy rojo</string>
+    <string name="selected_image">imagen seleccionada</string>
 </resources>

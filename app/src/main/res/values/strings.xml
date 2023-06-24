@@ -8,4 +8,9 @@
     <string name="close">Close</string>
     <string name="choose_and_tap_an_image">Choose and tap an image</string>
     <string name="voila" translatable="false">Voila!</string>
+    <string name="black_andy" >black andy</string>
+    <string name="blue_andy" >blue andy</string>
+    <string name="white_andy" >white andy</string>
+    <string name="red_andy" >red andy</string>
+    <string name="selected_image">selected image</string>
 </resources>
